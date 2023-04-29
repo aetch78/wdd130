@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+:root {
+    --primary-color: rgba(176, 201,225);
+    --secondary-color: rgba(172,176,160);
+    --accent1-color: rgba(57,108,160);
+    --accent2-color: rgba(67,85,95);
+
+    --heading-font: 'Castoro Titling', cursive;
+    --paragraph-font: 'Castoro Titling', cursive;
+
+    --nav-background-color: rgba(176, 201, 225);
+    --nav-link-color: rgba(172, 176, 160);
+    --nav-hover-link-color: rgba(57, 108, 160);
+    --nav-home-background-color: rgba(67, 85, 95);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+header {
+    padding: 1em;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 1em;
+}
+
+nav {
+    background-color: var(--nav-home-background-color);
+    font-size: 1rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
