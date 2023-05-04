@@ -46,7 +46,6 @@ aside {
 main img {
     width: 200px;
     height: auto;
-    float: right;
 }
 
 footer {
@@ -65,4 +64,8 @@ aside {
     padding: 1rem;
     background-color: lightblue;
     color: white;
+}
+main img {
+    float: right;
+    margin: 0 0 1em 1em;
 }
