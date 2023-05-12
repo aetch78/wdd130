@@ -1,0 +1,150 @@
+<!-- this is my about.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About Us - White Water Rafting</title>
+    <link href="styles/rafting.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="trips.html" target="_blank">Trips</a>
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/hero.jpeg" alt="White Water Rafting Hero Image">
+            <h1>White Water Rafting</h1>
+            <article>
+                <img src="images/client.jpeg" alt="Happy Client">
+                <p>We are a company that believes in providing the ultimate white water rafting experience for our
+                    clients.
+                    Our mission is to provide safe, exciting, and memorable adventures for all who seek them.</p>
+            </article>
+        </div>
+        <section>
+            <h2>History</h2>
+            <p>White Water Rafting was founded in 1995 by a group of friends who had a passion for adventure and the
+                great outdoors. From humble beginnings, we have grown to become one of the most respected and
+                well-known rafting companies in the industry.</p>
+        </section>
+        <section>
+            <h2>Adventure Awaits You!</h2>
+            <img src="images/rafting1.jpeg" alt="White Water Rafting Image">
+            <img src="images/rafting2.jpeg" alt="White Water Rafting Image">
+            <img src="images/rafting3.jpeg" alt="White Water Rafting Image">
+            <img src="images/rafting4.jpeg" alt="White Water Rafting Image">
+            <img src="images/rafting5.jpeg" alt="White Water Rafting Image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 White Water Rafting | Created by [Alexx Echevarria]</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+--primary-color: rgba(176, 201, 225);
+--secondary-color: rgba(172, 176, 160);
+--accent-color: rgba(57, 108, 160);
+--text-color: rgba(67, 85, 95);
+}
+
+h1,
+h2,
+h3 {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+color: var(--primary-color);
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: var(--text-color);
+}
+
+a img {
+text-decoration: none;
+}
+
+body {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.hero {
+position: relative;
+height: 500px;
+}
+
+.hero img {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.hero h1 {
+position: absolute;
+top: -4%;
+left: 15%;
+font-size: 60px;
+color: var(--secondary-color);
+text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.hero article {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: rgba(0, 0, 0, 0.6);
+padding: 20px;
+width: 95%;
+color: var(--secondary-color);
+}
+
+.hero article img {
+float: right;
+width: 200px;
+}
+
+.hero article p {
+max-width: 400px;
+color: antiquewhite;
+}
+
+nav a {
+text-decoration: none;
+}
+
+nav a img {
+width: 50px;
+}
