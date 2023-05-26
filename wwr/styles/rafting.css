@@ -188,3 +188,29 @@ form button {
         width: 100px;
     }
 }
+#hero img {
+    width: 100%;
+}
+
+#newsletter form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cta .button {
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
